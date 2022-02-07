@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>공부</title>
+        <style>
+            p{color:blue;}
+            h1{color:rgb(200,20,100)}
+            h2{color:#ddff00;} /* == df0 과 같다, 연속되는 값이라면 하나만 적어도 됨.*/
+        </style>
+    </head>
+
+    <body>
+        <h1>종환이의 다짐</h1> <!--h1 태그는! html 문서 안에 하나만 사용하는 것을 권장-->
+        <h2>무엇을 다짐했나?</h2>
+        <p>나 김종환은 이전과 다른 삶을 살 것을<br>나 자신과 약속했습니다.</p>
+        <p>철학도 공부해야지 &nbsp;&nbsp;&nbsp;!!!!!!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In vitae cupiditate iure sit eligendi dolor, sint nulla rerum nesciunt quibusdam, quidem dolores, veritatis explicabo. Ea maxime praesentium eligendi facere ut?</p>
+        
+        <!--의미적인 요소도 있음(이걸 쓰는게 좋음)-->
+        <p><strong>중요하면서<em>강조</em></strong></p>
+        <p><em>강조하면서 <strong>중요</strong></em></p>
+
+        <!--시각만-->
+        <p><b>중요하면서 <i>강조</i></b></p>
+        <p><i>강조하면서 <b>중요</b></i></p>
+        
+        <h3>무엇을 무엇을 해야할까요 오늘?</h3>
+        <ul>
+            <li>잠자기</li>
+            <li>html공부하기</li>
+            <li>맛난거 먹기</li>
+        </ul>
+        <ol type="A">
+            <li>노래 듣기</li>
+            <li>영화 보기</li>
+            <li>게임 하기</li>
+        </ol>
+
+        <h3>종환이의 데이터</h3>
+        <dl><!--definition list-->
+            <dt>라자냐</dt>
+            <dd>라자냐는 뭐냐면,,</dd>
+            <dt>필라프</dt>
+            <dd>필라프는 뭐냐면,, 네 알려드렸습니다.</dd>
+        </dl>
+        <!--
+            ./ 현재
+            ../ 상위
+            ../../ 상위 폴도의 상위 폴더
+        -->
+
+        <!--내부 리소스-->
+        <img src="images/Gazza.jpg" alt="가즈아를 나타내는 사진"><br>
+        
+        <a href="https://www.google.co.kr/" target="_blank">
+            <!--외부 리소스-->
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"><br>    
+        </a>
+        
+        <a href="https://www.google.co.kr/" target="_blank">구글로 이동<br></br></a>
+        <a href="#one">목차 1로 이동</a>
+        <a href="#two">목차 2로 이동</a>
+        <a href="#three">목차 3로 이동</a>
+
+        <p id="one" style="margin-top: 1500px;">목차 1</p>
+        <p id="two" style="margin-top: 1500px;">목차 2</p>
+        <p id="three" style="margin-top: 1500px;">목차 3</p>
+        <p style="margin-top: 1500px"></p>
+    </body>
+</html>
